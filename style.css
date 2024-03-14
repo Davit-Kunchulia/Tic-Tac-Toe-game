@@ -1,0 +1,25 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.actiondiv{
+    display: flex;
+}
+
+.first,.second,.third,.fourth,.fivth,.sixth,.seventh,.eigth,.ninth{
+    border: 2px solid rgb(21, 21, 180);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
